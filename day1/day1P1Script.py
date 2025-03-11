@@ -4,7 +4,6 @@
 
 import pandas as pd
 import numpy as np
-from findoffset import findoffset
 
 #read input data
 #data = np.loadtxt('sampleinputDay1.txt')
@@ -25,7 +24,7 @@ offset = sum(abs(col1sorted - col2sorted))
 
 #print offset
 #sample input data should print 11
-print(offset)
+print('The offset between the two columns is: ',offset)
 
 
 
